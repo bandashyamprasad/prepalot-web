@@ -82,7 +82,7 @@ jobs:
         env:
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY_STORE_MEDIA || secrets.R2_SECRET_ACCESS_KEY }}
         run: python tools/r2_sync.py
       - name: Keep the recordings as a download
         if: ${{ always() && !inputs.dry_run }}
