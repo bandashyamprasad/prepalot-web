@@ -7,6 +7,9 @@ name: Copy media to R2
 # Secrets: R2_ACCOUNT_ID (the Cloudflare account id), R2_ACCESS_KEY_ID and R2_SECRET_ACCESS_KEY (an R2 API token with
 # Object Read and Write on prepalot-media).
 on:
+  workflow_run:
+    workflows: ["Current affairs"]
+    types: [completed]
   schedule:
     - cron: "23 */3 * * *"
   workflow_dispatch:

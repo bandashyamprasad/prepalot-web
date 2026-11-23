@@ -38,14 +38,14 @@ jobs:
           fi
           # The function checks callers itself (admin_whoami, forms), so it is
           # deployed without the gateway JWT check, as it was before.
-          supabase functions deploy support-ticket --project-ref atpelambkmpakdlkqefg --no-verify-jwt
+          supabase functions deploy support-ticket --project-ref atpelambkmpakdlkqefg --no-verify-jwt --yes
           # ca-dispatch also checks the caller itself (signed-in administrator only).
-          supabase functions deploy ca-dispatch --project-ref atpelambkmpakdlkqefg --no-verify-jwt
+          supabase functions deploy ca-dispatch --project-ref atpelambkmpakdlkqefg --no-verify-jwt --yes
           # Also checks the same admin allowlist; dispatches only a saved manual AI run.
-          supabase functions deploy ai-verification-dispatch --project-ref atpelambkmpakdlkqefg --no-verify-jwt
+          supabase functions deploy ai-verification-dispatch --project-ref atpelambkmpakdlkqefg --no-verify-jwt --yes
           # Study-chapter run reports by email; checks the caller itself (service key only).
-          supabase functions deploy study-report --project-ref atpelambkmpakdlkqefg --no-verify-jwt
-          supabase functions deploy jobs-dispatch --project-ref atpelambkmpakdlkqefg --no-verify-jwt
+          supabase functions deploy study-report --project-ref atpelambkmpakdlkqefg --no-verify-jwt --yes
+          supabase functions deploy jobs-dispatch --project-ref atpelambkmpakdlkqefg --no-verify-jwt --yes
           # 23 Nov 2026: jobs run in bandashyamprasad/prepalot-web. The functions read and start them with the
           # prepalot-runs token (both repositories), passed here without printing it.
-          if [ -n "$RUNS_TOKEN" ]; then printf 'CA_GITHUB_TOKEN=%s\n' "$RUNS_TOKEN" > /tmp/fn.env && supabase secrets set --env-file /tmp/fn.env --project-ref atpelambkmpakdlkqefg && rm -f /tmp/fn.env; fi
+          if [ -n "$RUNS_TOKEN" ]; then printf 'CA_GITHUB_TOKEN=%s\n' "$RUNS_TOKEN" > /tmp/fn.env && supabase secrets set --env-file /tmp/fn.env --project-ref atpelambkmpakdlkqefg --yes && rm -f /tmp/fn.env; fi

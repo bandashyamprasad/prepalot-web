@@ -3,6 +3,9 @@
 # exam dates. Results are committed to status/ in this repository (read by the site's admin page).
 name: Site health check
 on:
+  workflow_run:
+    workflows: ["Exam dates and official sources"]
+    types: [completed]
   schedule:
     - cron: "37 2 * * *"
   workflow_dispatch:

@@ -3,6 +3,9 @@
 # (prepalot-store, logs/) and the run, with its log, is then deleted from GitHub.
 name: Export and delete run logs
 on:
+  workflow_run:
+    workflows: ["Current affairs", "Exam dates and official sources", "AI verification", "Study chapters (free tiers)", "Question bank writing (paid, capped)", "Site health check", "Copy media to R2"]
+    types: [completed]
   schedule:
     - cron: "*/15 * * * *"
   workflow_dispatch:
