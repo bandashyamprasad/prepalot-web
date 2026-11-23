@@ -1,8 +1,8 @@
 {
- "checked_at": "2026-11-23T05:15:56Z",
+ "checked_at": "2026-11-23T05:20:08Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 208,
+ "slowest_ms": 183,
  "sitemap_addresses": 929,
  "certificate_days_left": 39,
  "next_exams": [
@@ -27,14 +27,14 @@
    "days": 26
   },
   {
-   "exam": "CSIR NET December 2026",
-   "date": "2026-12-19",
-   "days": 26
+   "exam": "MAT December 2026",
+   "date": "2026-12-20",
+   "days": 27
   },
   {
-   "exam": "CSIR NET December 2026",
-   "date": "2026-12-19",
-   "days": 26
+   "exam": "IBPS Clerk Mains",
+   "date": "2026-12-27",
+   "days": 34
   }
  ],
  "checks": [
@@ -42,64 +42,72 @@
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 88,
+   "ms": 121,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 124,
+   "ms": 151,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 85,
+   "ms": 116,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 174,
+   "ms": 82,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 208,
+   "ms": 129,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 51,
+   "ms": 183,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 149,
+   "ms": 130,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 54,
+   "ms": 80,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 59,
+   "ms": 104,
    "ok": true
   }
- ]
+ ],
+ "surprise": {
+  "kind": "Quote",
+  "text": "Have a vision. Be demanding.",
+  "by": "Colin Powell",
+  "source": "zenquotes.io",
+  "date": "2026-11-23"
+ },
+ "surprises_kept": 1
 }
