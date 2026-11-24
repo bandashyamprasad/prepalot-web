@@ -57,7 +57,8 @@ jobs:
         with:
           args: -m tools.ai_verification.fetch_bank
       - name: Update the private question-bank index
-        if: ${{ env.AI_BANK_RELEASE != '' }}
+        # 25 Nov 2026: skipped while the bank review is paused (it overloaded the free database; tools/ai_verification/auto.py hosted()).
+        if: ${{ env.AI_BANK_RELEASE != '' && vars.AIV_BANK_PAUSED == '0' }}
         continue-on-error: true
         uses: ./.github/actions/python-run
         env:
@@ -72,6 +73,7 @@ jobs:
         env:
           AI_RUN_ID: ${{ inputs.run_id }}
           AIV_MODULES: ${{ vars.AIV_MODULES || 'ca,dates,bank' }}
+          AIV_BANK_PAUSED: ${{ vars.AIV_BANK_PAUSED || '1' }}
           GITHUB_TOKEN: ${{ github.token }}
           AI_JOURNAL_PATH: ${{ vars.AI_JOURNAL_PATH }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
@@ -88,6 +90,7 @@ jobs:
         uses: ./.github/actions/python-run
         env:
           AIV_MODULES: ${{ vars.AIV_MODULES || 'ca,dates,bank' }}
+          AIV_BANK_PAUSED: ${{ vars.AIV_BANK_PAUSED || '1' }}
           GITHUB_TOKEN: ${{ github.token }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
