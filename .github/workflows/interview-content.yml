@@ -16,7 +16,7 @@ on:
       max_usd:
         description: "Hard spending cap for this run in US dollars (the run stops before passing it)"
         required: true
-        default: "2"
+        default: "3"
         type: string
       dry_run:
         description: "Only print the plan; no AI calls"
