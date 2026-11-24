@@ -1,0 +1,24 @@
+name: PIB trigger (starts the PIB job on the Oracle runner)
+
+on:
+  schedule:
+    - cron: "50 * * * *"
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Ask the private repository to run the PIB job
+        env:
+          TOKEN: ${{ secrets.PRIVATE_REPO_TOKEN }}
+        run: |
+          code=$(curl -sS -o /tmp/out.txt -w '%{http_code}' -X POST \
+            -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/bandashyamprasad/prepalot/dispatches \
+            -d '{"event_type":"pib"}')
+          echo "GitHub answered HTTP $code"
+          if [ "$code" != "204" ]; then cat /tmp/out.txt; echo "::error::PIB dispatch failed (HTTP $code)"; exit 1; fi
