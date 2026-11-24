@@ -14,9 +14,14 @@ on:
         default: "new"
         type: string
       max_usd:
-        description: "Hard spending cap for this run in US dollars (the run stops before passing it)"
+        description: "Hard spending cap for writing the questions, in US dollars (the run stops before passing it)"
         required: true
         default: "3"
+        type: string
+      voice_usd:
+        description: "Hard cap for recording the interviewer's Indian English voices for tracks without recordings (0 = skip)"
+        required: true
+        default: "0.5"
         type: string
       dry_run:
         description: "Only print the plan; no AI calls"
@@ -52,3 +57,14 @@ jobs:
           GIT_COMMITTER_EMAIL: actions@users.noreply.github.com
         with:
           args: tools/interview/generate.py --max-usd=${{ inputs.max_usd }} ${{ inputs.dry_run && '--dry-run' || '' }} ${{ inputs.command }}
+      - name: Record the interviewer voices for tracks without recordings
+        if: inputs.voice_usd != '0' && !inputs.dry_run
+        uses: ./.github/actions/python-run
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GIT_AUTHOR_NAME: prepalot-writer
+          GIT_AUTHOR_EMAIL: actions@users.noreply.github.com
+          GIT_COMMITTER_NAME: prepalot-writer
+          GIT_COMMITTER_EMAIL: actions@users.noreply.github.com
+        with:
+          args: tools/interview/voice_openrouter.py --max-usd=${{ inputs.voice_usd }}
