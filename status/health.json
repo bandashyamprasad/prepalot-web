@@ -1,8 +1,8 @@
 {
- "checked_at": "2026-11-24T11:16:14Z",
+ "checked_at": "2026-11-24T12:51:51Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 222,
+ "slowest_ms": 188,
  "sitemap_addresses": 1038,
  "certificate_days_left": 38,
  "next_exams": [
@@ -42,69 +42,69 @@
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 115,
+   "ms": 106,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 131,
+   "ms": 188,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 58,
+   "ms": 55,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 72,
+   "ms": 90,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 117,
+   "ms": 90,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 179,
+   "ms": 86,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 163,
+   "ms": 52,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 222,
+   "ms": 89,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 60,
+   "ms": 83,
    "ok": true
   }
  ],
  "surprise": {
   "kind": "Idea for the day",
-  "text": "Never waste an opportunity to tell someone you love them.",
+  "text": "Don't try and bump start a motorcycle on an icy road.",
   "source": "adviceslip.com",
   "date": "2026-11-24"
  },
