@@ -10,7 +10,7 @@ name: Delete inactive accounts
 # "github": GitHub's own servers (uses the account's Actions minutes). /admin shows the choice.
 on:
   schedule:
-    - cron: "17 21 * * 0"   # Monday 02:47 IST
+    - cron: "47 22 * * 0"   # Monday 04:17 IST (moved 24 Nov 2026 off the offline-bank minute)
   workflow_dispatch:
     inputs:
       via:
