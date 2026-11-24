@@ -48,6 +48,7 @@ jobs:
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           fetch-depth: 0
       - name: Write, check and push the interview tracks
+        if: inputs.command != 'voices'
         uses: ./.github/actions/python-run
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
