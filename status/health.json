@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-11-25T10:13:36Z",
+ "checked_at": "2026-11-25T11:38:45Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 148,
- "sitemap_addresses": 7985,
+ "slowest_ms": 246,
+ "sitemap_addresses": 7995,
  "certificate_days_left": 37,
  "next_exams": [
   {
@@ -40,76 +40,76 @@
  "database": {
   "ok": true,
   "status": 200,
-  "ms": 734
+  "ms": 1006
  },
  "checks": [
   {
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 90,
+   "ms": 87,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 129,
+   "ms": 184,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 50,
+   "ms": 61,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 81,
+   "ms": 65,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 68,
+   "ms": 64,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 148,
+   "ms": 246,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 55,
+   "ms": 71,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 66,
+   "ms": 78,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 59,
+   "ms": 57,
    "ok": true
   }
  ],
  "surprise": {
   "kind": "Fact",
-  "text": "Frank Lloyd Wright's son invented Lincoln Logs.",
+  "text": "More people are killed annually by donkeys than airplane crashes.",
   "source": "uselessfacts.jsph.pl",
   "date": "2026-11-25"
  },

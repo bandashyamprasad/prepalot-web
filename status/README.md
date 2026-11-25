@@ -1,21 +1,21 @@
 # prepalot.in health
 
-Checked daily from GitHub's servers. Last check: 2026-11-25T10:13:36Z.
+Checked daily from GitHub's servers. Last check: 2026-11-25T11:38:45Z.
 
 | Page | Status | Response |
 |---|---|---|
-| Home | OK | 90 ms |
-| Exams | OK | 129 ms |
-| CAT | OK | 50 ms |
-| CAT mock | OK | 81 ms |
-| CLAT guide | OK | 68 ms |
-| Study notes | OK | 148 ms |
-| Code practice | OK | 55 ms |
-| Jobs | OK | 66 ms |
-| Sitemap | OK | 59 ms |
+| Home | OK | 87 ms |
+| Exams | OK | 184 ms |
+| CAT | OK | 61 ms |
+| CAT mock | OK | 65 ms |
+| CLAT guide | OK | 64 ms |
+| Study notes | OK | 246 ms |
+| Code practice | OK | 71 ms |
+| Jobs | OK | 78 ms |
+| Sitemap | OK | 57 ms |
 
 - Database (sign-in, mock submits, admin): answering
-- Addresses in the sitemaps: 7985
+- Addresses in the sitemaps: 7995
 - TLS certificate days left: 37
 
 ## Next official exam dates
@@ -29,6 +29,6 @@ Checked daily from GitHub's servers. Last check: 2026-11-25T10:13:36Z.
 
 ## Today's surprise
 
-**Fact.** Frank Lloyd Wright's son invented Lincoln Logs.
+**Fact.** More people are killed annually by donkeys than airplane crashes.
 
 <sub>From uselessfacts.jsph.pl. The last year of them is in surprises.jsonl.</sub>
