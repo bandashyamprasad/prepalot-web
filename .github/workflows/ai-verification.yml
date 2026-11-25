@@ -24,7 +24,7 @@ on:
         default: ""
         type: string
 permissions:
-  contents: read
+  contents: write  # 25 Nov 2026: the bank review writes status/bank-review.json for the admin page
   actions: write   # "Finish automatically" starts the next batch of the run itself
 concurrency:
   group: ai-verification
@@ -58,12 +58,14 @@ jobs:
           args: -m tools.ai_verification.fetch_bank
       - name: Update the private question-bank index
         # 25 Nov 2026: skipped while the bank review is paused (it overloaded the free database; tools/ai_verification/auto.py hosted()).
-        if: ${{ env.AI_BANK_RELEASE != '' && vars.AIV_BANK_PAUSED == '0' }}
+        # 25 Nov 2026: the step itself now reads the on/off switch from /admin (auto.hosted()) and does nothing while it is off.
+        if: ${{ env.AI_BANK_RELEASE != '' }}
         continue-on-error: true
         uses: ./.github/actions/python-run
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          AIV_BANK_PAUSED: ${{ vars.AIV_BANK_PAUSED || '1' }}
         # Incremental: unchanged master files are not read again.
         with:
           args: -m tools.ai_verification.runner index --release "${{ env.AI_BANK_RELEASE }}" --inventory "${{ env.AI_INVENTORY_PATH }}"
