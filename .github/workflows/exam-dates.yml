@@ -56,6 +56,10 @@ jobs:
       GEMINI_MODEL: ${{ vars.EXAM_DATES_GEMINI_MODEL }}
       SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
       SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+      # 25 Nov 2026: copies of official pages read by the Oracle machine (tools/jobs/official_pages.py), used when a page does not answer here
+      R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+      R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY_STORE_MEDIA || secrets.R2_SECRET_ACCESS_KEY }}
       DATES_RUNNER: ${{ vars.JOBS_RUNNER == 'github' && 'GitHub servers' || 'your computer' }}
     steps:
       - uses: actions/checkout@v4
