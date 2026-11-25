@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-11-25T06:44:54Z",
+ "checked_at": "2026-11-25T09:22:58Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 205,
- "sitemap_addresses": 8024,
+ "slowest_ms": 238,
+ "sitemap_addresses": 7985,
  "certificate_days_left": 37,
  "next_exams": [
   {
@@ -40,76 +40,76 @@
  "database": {
   "ok": true,
   "status": 200,
-  "ms": 805
+  "ms": 1062
  },
  "checks": [
   {
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 89,
+   "ms": 159,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 134,
+   "ms": 148,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 66,
+   "ms": 111,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 80,
+   "ms": 191,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 94,
+   "ms": 238,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 171,
+   "ms": 237,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 195,
+   "ms": 170,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 162,
+   "ms": 181,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 205,
+   "ms": 151,
    "ok": true
   }
  ],
  "surprise": {
   "kind": "Fact",
-  "text": "The largest NFL stadium is the Pontiac Silverdome in Detroit, Michigan.",
+  "text": "In Italy, 17 is considered an unlucky number. In Japan, 4 is considered an unlucky number.",
   "source": "uselessfacts.jsph.pl",
   "date": "2026-11-25"
  },
