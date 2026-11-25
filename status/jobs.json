@@ -4,16 +4,17 @@
    "expect_hours": 50,
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-25T10:19:18Z",
-   "last_success": "2026-11-25T10:19:18Z",
+   "last_run": "2026-11-25T11:45:04Z",
+   "last_success": "2026-11-25T11:45:04Z",
    "name": "Verification model names and syllabus labels"
   },
   "ai-verification.yml": {
    "expect_hours": 14,
-   "failures_in_a_row": 2,
+   "failures_in_a_row": 0,
    "last_failure": "2026-11-25T06:59:49Z",
-   "last_result": "failed",
-   "last_run": "2026-11-25T06:59:49Z",
+   "last_result": "ok",
+   "last_run": "2026-11-25T12:09:39Z",
+   "last_success": "2026-11-25T12:09:39Z",
    "name": "AI verification"
   },
   "current-affairs-pib.yml": {
@@ -36,8 +37,8 @@
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-25T11:13:26Z",
-   "last_success": "2026-11-25T11:13:26Z",
+   "last_run": "2026-11-25T11:39:45Z",
+   "last_success": "2026-11-25T11:39:45Z",
    "name": "Export and delete run logs"
   },
   "pib-trigger.yml": {
@@ -72,5 +73,5 @@
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-25T11:39:41Z"
+ "written_at": "2026-11-25T12:10:00Z"
 }
