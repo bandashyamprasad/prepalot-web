@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 permissions:
   actions: write
-  contents: read
+  contents: write   # 25 Nov 2026: keeps status/jobs.json (each job's last result) for the admin page
 concurrency:
   group: export-logs
   cancel-in-progress: false
@@ -36,4 +36,6 @@ jobs:
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY_STORE_MEDIA || secrets.R2_SECRET_ACCESS_KEY }}
+          CONTENT_REPO: bandashyamprasad/prepalot
+          CONTENT_TOKEN: ${{ secrets.PRIVATE_REPO_TOKEN }}
         run: python3 tools/jobs/export_logs.py
