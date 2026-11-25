@@ -50,7 +50,8 @@ jobs:
           git add status
           git diff --cached --quiet && { echo "No change."; exit 0; }
           git commit -q -m "Site health $(date -u +%Y-%m-%d): $(python3 -c "import json;d=json.load(open('status/health.json'));print('%d of %d pages up' % (d['pages_ok'], d['pages_checked']))")"
-          git push -q
+          # 25 Nov 2026: another job can push a status file in the same minute; take its commit in and try again.
+          for n in 1 2 3 4; do git push -q && break; git pull -q --rebase || true; sleep $((n * 5)); done
           # The admin page reads status/ through jsDelivr; clear its cache so the new result shows at once.
           for f in health.json deploy.json surprises.jsonl; do curl -fsS -o /dev/null "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/status/$f" || echo "jsDelivr purge failed for $f"; done
       - name: Fail when a page is down, the database is not answering or the site could not be deployed
