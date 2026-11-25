@@ -1,18 +1,18 @@
 # prepalot.in health
 
-Checked daily from GitHub's servers. Last check: 2026-11-25T10:12:31Z.
+Checked daily from GitHub's servers. Last check: 2026-11-25T10:13:36Z.
 
 | Page | Status | Response |
 |---|---|---|
-| Home | OK | 237 ms |
-| Exams | OK | 104 ms |
-| CAT | OK | 102 ms |
-| CAT mock | OK | 90 ms |
-| CLAT guide | OK | 80 ms |
-| Study notes | OK | 162 ms |
-| Code practice | OK | 101 ms |
-| Jobs | OK | 75 ms |
-| Sitemap | OK | 97 ms |
+| Home | OK | 90 ms |
+| Exams | OK | 129 ms |
+| CAT | OK | 50 ms |
+| CAT mock | OK | 81 ms |
+| CLAT guide | OK | 68 ms |
+| Study notes | OK | 148 ms |
+| Code practice | OK | 55 ms |
+| Jobs | OK | 66 ms |
+| Sitemap | OK | 59 ms |
 
 - Database (sign-in, mock submits, admin): answering
 - Addresses in the sitemaps: 7985
@@ -29,6 +29,6 @@ Checked daily from GitHub's servers. Last check: 2026-11-25T10:12:31Z.
 
 ## Today's surprise
 
-**Fact.** The sound of E.T. walking was made by someone squishing her hands in jelly.
+**Fact.** Frank Lloyd Wright's son invented Lincoln Logs.
 
 <sub>From uselessfacts.jsph.pl. The last year of them is in surprises.jsonl.</sub>

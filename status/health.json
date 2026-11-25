@@ -1,8 +1,8 @@
 {
- "checked_at": "2026-11-25T10:12:31Z",
+ "checked_at": "2026-11-25T10:13:36Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 237,
+ "slowest_ms": 148,
  "sitemap_addresses": 7985,
  "certificate_days_left": 37,
  "next_exams": [
@@ -40,76 +40,76 @@
  "database": {
   "ok": true,
   "status": 200,
-  "ms": 808
+  "ms": 734
  },
  "checks": [
   {
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 237,
+   "ms": 90,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 104,
+   "ms": 129,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 102,
+   "ms": 50,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 90,
+   "ms": 81,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 80,
+   "ms": 68,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 162,
+   "ms": 148,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 101,
+   "ms": 55,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 75,
+   "ms": 66,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 97,
+   "ms": 59,
    "ok": true
   }
  ],
  "surprise": {
   "kind": "Fact",
-  "text": "The sound of E.T. walking was made by someone squishing her hands in jelly.",
+  "text": "Frank Lloyd Wright's son invented Lincoln Logs.",
   "source": "uselessfacts.jsph.pl",
   "date": "2026-11-25"
  },
