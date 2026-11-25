@@ -94,3 +94,26 @@ jobs:
         with:
           path: tools/ca/work/inbox.json
           key: ca-inbox-${{ github.run_id }}
+
+  # 25 Nov 2026: GitHub fired the hourly PIB trigger (prepalot-web pib-trigger.yml) only about twice in nine hours,
+  # while the Supabase timer starts this workflow every 2 hours without fail. So every collect or full run here also
+  # asks the private repository to run the PIB job on the Oracle machine (PIB refuses GitHub's servers). It runs after
+  # the job above whatever its result, and fails loudly when GitHub refuses the request. pib-trigger.yml stays as a
+  # backup; the PIB job keeps one run at a time, so two requests close together do not double up.
+  pib:
+    needs: run
+    if: ${{ always() && needs.run.result != 'skipped' && github.repository == 'bandashyamprasad/prepalot-web' && !(github.event_name == 'workflow_dispatch' && (inputs.mode == 'dry-run' || inputs.mode == 'publish')) }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions: {}
+    steps:
+      - name: Ask the private repository to run the PIB job
+        env:
+          TOKEN: ${{ secrets.PRIVATE_REPO_TOKEN }}
+        run: |
+          code=$(curl -sS -o /tmp/out.txt -w '%{http_code}' -X POST \
+            -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/bandashyamprasad/prepalot/dispatches \
+            -d '{"event_type":"pib"}')
+          echo "GitHub answered HTTP $code"
+          if [ "$code" != "204" ]; then cat /tmp/out.txt; echo "::error::PIB dispatch failed (HTTP $code)"; exit 1; fi
