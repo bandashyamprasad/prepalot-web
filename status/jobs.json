@@ -4,8 +4,8 @@
    "expect_hours": 50,
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-25T06:48:09Z",
-   "last_success": "2026-11-25T06:48:09Z",
+   "last_run": "2026-11-25T10:19:18Z",
+   "last_success": "2026-11-25T10:19:18Z",
    "name": "Verification model names and syllabus labels"
   },
   "ai-verification.yml": {
@@ -21,8 +21,8 @@
    "failures_in_a_row": 0,
    "last_failure": "2026-11-25T03:48:54Z",
    "last_result": "ok",
-   "last_run": "2026-11-25T09:28:08Z",
-   "last_success": "2026-11-25T09:28:08Z",
+   "last_run": "2026-11-25T10:20:01Z",
+   "last_success": "2026-11-25T10:20:01Z",
    "name": "Current affairs (PIB, Oracle machine)"
   },
   "current-affairs.yml": {
@@ -36,8 +36,8 @@
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-25T10:12:55Z",
-   "last_success": "2026-11-25T10:12:55Z",
+   "last_run": "2026-11-25T10:16:43Z",
+   "last_success": "2026-11-25T10:16:43Z",
    "name": "Export and delete run logs"
   },
   "pib-trigger.yml": {
@@ -55,7 +55,14 @@
    "last_run": "2026-11-25T10:13:04Z",
    "last_success": "2026-11-25T10:12:47Z",
    "name": "Site health check"
+  },
+  "study-chapters.yml": {
+   "failures_in_a_row": 0,
+   "last_result": "ok",
+   "last_run": "2026-11-25T10:28:58Z",
+   "last_success": "2026-11-25T10:28:58Z",
+   "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-25T10:13:21Z"
+ "written_at": "2026-11-25T10:29:18Z"
 }
