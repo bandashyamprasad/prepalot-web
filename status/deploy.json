@@ -1,6 +1,8 @@
 {
- "checked_at": "2026-11-25T09:23:00Z",
- "state": "current",
+ "checked_at": "2026-11-25T10:12:32Z",
+ "state": "waiting",
  "files_compared": 8,
- "behind": []
+ "behind": [
+  "/admin/content-health.js"
+ ]
 }
