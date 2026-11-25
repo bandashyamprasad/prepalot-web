@@ -27,12 +27,21 @@ jobs:
           repository: bandashyamprasad/prepalot
           token: ${{ secrets.PRIVATE_REPO_TOKEN }}
           path: .tools
-          sparse-checkout: tools/jobs/site_health.py
+          sparse-checkout: |
+            tools/jobs/site_health.py
+            tools/jobs/deploy_check.py
           sparse-checkout-cone-mode: false
       - name: Check the site
         id: check
         continue-on-error: true
         run: python3 .tools/tools/jobs/site_health.py .
+      - name: Check that the live site matches the repository (starts a deploy when it is behind)
+        id: deploy
+        continue-on-error: true
+        env:
+          CONTENT_REPO: bandashyamprasad/prepalot
+          CONTENT_TOKEN: ${{ secrets.PRIVATE_REPO_TOKEN }}
+        run: python3 .tools/tools/jobs/deploy_check.py .
       - name: Publish the result
         if: always()
         run: |
@@ -43,7 +52,7 @@ jobs:
           git commit -q -m "Site health $(date -u +%Y-%m-%d): $(python3 -c "import json;d=json.load(open('status/health.json'));print('%d of %d pages up' % (d['pages_ok'], d['pages_checked']))")"
           git push -q
           # The admin page reads status/ through jsDelivr; clear its cache so the new result shows at once.
-          for f in health.json surprises.jsonl; do curl -fsS -o /dev/null "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/status/$f" || echo "jsDelivr purge failed for $f"; done
-      - name: Fail when a page is down
-        if: steps.check.outcome == 'failure'
+          for f in health.json deploy.json surprises.jsonl; do curl -fsS -o /dev/null "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/status/$f" || echo "jsDelivr purge failed for $f"; done
+      - name: Fail when a page is down, the database is not answering or the site could not be deployed
+        if: steps.check.outcome == 'failure' || steps.deploy.outcome == 'failure'
         run: exit 1
