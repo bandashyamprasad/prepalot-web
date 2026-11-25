@@ -1,0 +1,36 @@
+{
+ "jobs": {
+  "current-affairs-pib.yml": {
+   "expect_hours": 3,
+   "failures_in_a_row": 0,
+   "last_failure": "2026-11-25T03:48:54Z",
+   "last_result": "ok",
+   "last_run": "2026-11-25T06:05:54Z",
+   "last_success": "2026-11-25T06:05:54Z",
+   "name": "Current affairs (PIB, Oracle machine)"
+  },
+  "current-affairs.yml": {
+   "expect_hours": 3,
+   "failures_in_a_row": 0,
+   "last_result": "ok",
+   "last_run": "2026-11-25T06:13:35Z",
+   "last_success": "2026-11-25T06:13:35Z",
+   "name": "Current affairs"
+  },
+  "export-logs.yml": {
+   "failures_in_a_row": 0,
+   "last_result": "ok",
+   "last_run": "2026-11-25T04:58:25Z",
+   "last_success": "2026-11-25T04:58:25Z",
+   "name": "Export and delete run logs"
+  },
+  "pib-trigger.yml": {
+   "failures_in_a_row": 0,
+   "last_result": "ok",
+   "last_run": "2026-11-25T05:22:30Z",
+   "last_success": "2026-11-25T05:22:30Z",
+   "name": "PIB trigger (starts the PIB job on the Oracle runner)"
+  }
+ },
+ "written_at": "2026-11-25T06:14:00Z"
+}
