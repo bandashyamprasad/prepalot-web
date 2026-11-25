@@ -28,17 +28,18 @@
   },
   "current-affairs.yml": {
    "expect_hours": 3,
-   "failures_in_a_row": 0,
-   "last_result": "ok",
-   "last_run": "2026-11-25T10:13:00Z",
+   "failures_in_a_row": 1,
+   "last_failure": "2026-11-25T12:14:35Z",
+   "last_result": "failed",
+   "last_run": "2026-11-25T12:14:35Z",
    "last_success": "2026-11-25T10:13:00Z",
    "name": "Current affairs"
   },
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-25T11:39:45Z",
-   "last_success": "2026-11-25T11:39:45Z",
+   "last_run": "2026-11-25T12:10:05Z",
+   "last_success": "2026-11-25T12:10:05Z",
    "name": "Export and delete run logs"
   },
   "pib-trigger.yml": {
@@ -73,5 +74,5 @@
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-25T12:10:00Z"
+ "written_at": "2026-11-25T12:14:55Z"
 }
