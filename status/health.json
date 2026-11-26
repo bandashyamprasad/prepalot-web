@@ -1,8 +1,8 @@
 {
- "checked_at": "2026-11-26T05:23:12Z",
+ "checked_at": "2026-11-26T05:25:09Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 236,
+ "slowest_ms": 184,
  "sitemap_addresses": 7996,
  "certificate_days_left": 36,
  "next_exams": [
@@ -40,76 +40,76 @@
  "database": {
   "ok": true,
   "status": 200,
-  "ms": 1098
+  "ms": 1354
  },
  "checks": [
   {
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 66,
+   "ms": 129,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 236,
+   "ms": 143,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 46,
+   "ms": 101,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 56,
+   "ms": 67,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 41,
+   "ms": 68,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 96,
+   "ms": 184,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 39,
+   "ms": 86,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 73,
+   "ms": 124,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 49,
+   "ms": 73,
    "ok": true
   }
  ],
  "surprise": {
   "kind": "Joke",
-  "text": "What do you call a fish with no eyes? A fsh.",
+  "text": "Can I watch the TV? Dad: Yes, but don\u2019t turn it on.",
   "source": "icanhazdadjoke.com",
   "date": "2026-11-26"
  },
