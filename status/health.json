@@ -1,25 +1,30 @@
 {
- "checked_at": "2026-11-26T01:58:53Z",
+ "checked_at": "2026-11-26T04:25:38Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 187,
- "sitemap_addresses": 8496,
+ "slowest_ms": 125,
+ "sitemap_addresses": 7996,
  "certificate_days_left": 36,
  "next_exams": [
+  {
+   "exam": "SBI Clerk Mains 2026",
+   "date": "2026-11-26",
+   "days": 0
+  },
   {
    "exam": "CAT 2026",
    "date": "2026-11-29",
    "days": 3
   },
   {
-   "exam": "SSC CHSL Tier-I 2026",
+   "exam": "APPSC Group-II 2026",
    "date": "2026-11-30",
    "days": 4
   },
   {
-   "exam": "APPSC Group-II 2026",
-   "date": "2026-11-30",
-   "days": 4
+   "exam": "SSC CHSL Tier-I 2026",
+   "date": "2026-12-03",
+   "days": 7
   },
   {
    "exam": "CSIR NET December 2026",
@@ -30,86 +35,81 @@
    "exam": "MAT December 2026",
    "date": "2026-12-20",
    "days": 24
-  },
-  {
-   "exam": "IBPS Clerk Mains",
-   "date": "2026-12-27",
-   "days": 31
   }
  ],
  "database": {
   "ok": true,
   "status": 200,
-  "ms": 861
+  "ms": 1267
  },
  "checks": [
   {
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 112,
+   "ms": 114,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 135,
+   "ms": 113,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 59,
+   "ms": 75,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 125,
+   "ms": 46,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 187,
+   "ms": 68,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 122,
+   "ms": 125,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 79,
+   "ms": 46,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 105,
+   "ms": 85,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 76,
+   "ms": 70,
    "ok": true
   }
  ],
  "surprise": {
   "kind": "Joke",
-  "text": "My sister bet me $15 that I couldn't build a car out of spaghetti. You should have seen the look on her face as I drove pasta.",
+  "text": "Toasters were the first form of pop-up notifications.",
   "source": "icanhazdadjoke.com",
   "date": "2026-11-26"
  },
