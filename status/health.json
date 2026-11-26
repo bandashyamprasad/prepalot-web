@@ -1,117 +1,117 @@
 {
- "checked_at": "2026-11-25T11:38:45Z",
+ "checked_at": "2026-11-26T01:58:53Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 246,
- "sitemap_addresses": 7995,
- "certificate_days_left": 37,
+ "slowest_ms": 187,
+ "sitemap_addresses": 8496,
+ "certificate_days_left": 36,
  "next_exams": [
   {
    "exam": "CAT 2026",
    "date": "2026-11-29",
-   "days": 4
+   "days": 3
   },
   {
    "exam": "SSC CHSL Tier-I 2026",
    "date": "2026-11-30",
-   "days": 5
+   "days": 4
   },
   {
    "exam": "APPSC Group-II 2026",
    "date": "2026-11-30",
-   "days": 5
+   "days": 4
   },
   {
    "exam": "CSIR NET December 2026",
    "date": "2026-12-19",
-   "days": 24
+   "days": 23
   },
   {
    "exam": "MAT December 2026",
    "date": "2026-12-20",
-   "days": 25
+   "days": 24
   },
   {
    "exam": "IBPS Clerk Mains",
    "date": "2026-12-27",
-   "days": 32
+   "days": 31
   }
  ],
  "database": {
   "ok": true,
   "status": 200,
-  "ms": 1006
+  "ms": 861
  },
  "checks": [
   {
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 87,
+   "ms": 112,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 184,
+   "ms": 135,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 61,
+   "ms": 59,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 65,
+   "ms": 125,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 64,
+   "ms": 187,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 246,
+   "ms": 122,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 71,
+   "ms": 79,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 78,
+   "ms": 105,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 57,
+   "ms": 76,
    "ok": true
   }
  ],
  "surprise": {
-  "kind": "Fact",
-  "text": "More people are killed annually by donkeys than airplane crashes.",
-  "source": "uselessfacts.jsph.pl",
-  "date": "2026-11-25"
+  "kind": "Joke",
+  "text": "My sister bet me $15 that I couldn't build a car out of spaghetti. You should have seen the look on her face as I drove pasta.",
+  "source": "icanhazdadjoke.com",
+  "date": "2026-11-26"
  },
- "surprises_kept": 3
+ "surprises_kept": 4
 }
