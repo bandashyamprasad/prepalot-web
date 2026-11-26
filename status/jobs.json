@@ -22,8 +22,8 @@
    "failures_in_a_row": 0,
    "last_failure": "2026-11-25T03:48:54Z",
    "last_result": "ok",
-   "last_run": "2026-11-26T00:15:55Z",
-   "last_success": "2026-11-26T00:15:55Z",
+   "last_run": "2026-11-26T00:35:48Z",
+   "last_success": "2026-11-26T00:35:48Z",
    "name": "Current affairs (PIB, Oracle machine)"
   },
   "current-affairs.yml": {
@@ -35,11 +35,19 @@
    "last_success": "2026-11-25T20:16:49Z",
    "name": "Current affairs"
   },
+  "exam-dates.yml": {
+   "expect_hours": 26,
+   "failures_in_a_row": 0,
+   "last_result": "ok",
+   "last_run": "2026-11-26T01:58:44Z",
+   "last_success": "2026-11-26T01:58:44Z",
+   "name": "Exam dates and official sources"
+  },
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-26T00:15:15Z",
-   "last_success": "2026-11-26T00:15:15Z",
+   "last_run": "2026-11-26T00:37:46Z",
+   "last_success": "2026-11-26T00:37:46Z",
    "name": "Export and delete run logs"
   },
   "offline-bank.yml": {
@@ -82,5 +90,5 @@
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-26T00:18:45Z"
+ "written_at": "2026-11-26T01:59:02Z"
 }
