@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-11-26T09:45:22Z",
+ "checked_at": "2026-11-26T11:25:04Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 127,
- "sitemap_addresses": 7997,
+ "slowest_ms": 175,
+ "sitemap_addresses": 8020,
  "certificate_days_left": 36,
  "next_exams": [
   {
@@ -40,76 +40,76 @@
  "database": {
   "ok": true,
   "status": 200,
-  "ms": 780
+  "ms": 967
  },
  "checks": [
   {
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 127,
+   "ms": 145,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 98,
+   "ms": 104,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 43,
+   "ms": 58,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 45,
+   "ms": 59,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 50,
+   "ms": 175,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 114,
+   "ms": 159,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 44,
+   "ms": 69,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 45,
+   "ms": 60,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 59,
+   "ms": 135,
    "ok": true
   }
  ],
  "surprise": {
   "kind": "Joke",
-  "text": "A man got hit in the head with a can of Coke, but he was alright because it was a soft drink.",
+  "text": "I bought shoes from a drug dealer once. I don't know what he laced them with, but I was tripping all day.",
   "source": "icanhazdadjoke.com",
   "date": "2026-11-26"
  },
