@@ -50,6 +50,8 @@ jobs:
     env:
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+      # 26 Nov 2026: free OpenRouter models are asked first for exam dates (only ':free' models can be called)
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
       CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
       OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       DATES_AI_MODELS: ${{ vars.DATES_AI_MODELS }}
