@@ -46,8 +46,8 @@
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-26T06:46:58Z",
-   "last_success": "2026-11-26T06:46:58Z",
+   "last_run": "2026-11-26T08:14:02Z",
+   "last_success": "2026-11-26T08:14:02Z",
    "name": "Export and delete run logs"
   },
   "indexnow.yml": {
@@ -77,8 +77,8 @@
    "expect_hours": 26,
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-26T06:17:15Z",
-   "last_success": "2026-11-26T06:17:15Z",
+   "last_run": "2026-11-26T08:16:53Z",
+   "last_success": "2026-11-26T08:16:53Z",
    "name": "Copy media to R2"
   },
   "site-health.yml": {
@@ -98,5 +98,5 @@
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-26T08:13:58Z"
+ "written_at": "2026-11-26T08:17:09Z"
 }
