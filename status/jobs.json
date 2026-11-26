@@ -22,8 +22,8 @@
    "failures_in_a_row": 0,
    "last_failure": "2026-11-25T03:48:54Z",
    "last_result": "ok",
-   "last_run": "2026-11-26T00:35:48Z",
-   "last_success": "2026-11-26T00:35:48Z",
+   "last_run": "2026-11-26T03:12:45Z",
+   "last_success": "2026-11-26T03:12:45Z",
    "name": "Current affairs (PIB, Oracle machine)"
   },
   "current-affairs.yml": {
@@ -46,9 +46,17 @@
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-26T00:37:46Z",
-   "last_success": "2026-11-26T00:37:46Z",
+   "last_run": "2026-11-26T02:17:11Z",
+   "last_success": "2026-11-26T02:17:11Z",
    "name": "Export and delete run logs"
+  },
+  "indexnow.yml": {
+   "expect_hours": 26,
+   "failures_in_a_row": 0,
+   "last_result": "ok",
+   "last_run": "2026-11-26T03:50:11Z",
+   "last_success": "2026-11-26T03:50:11Z",
+   "name": "Tell Bing and DuckDuckGo about changed pages (IndexNow)"
   },
   "offline-bank.yml": {
    "expect_hours": 26,
@@ -90,5 +98,5 @@
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-26T01:59:02Z"
+ "written_at": "2026-11-26T04:05:48Z"
 }
