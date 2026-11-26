@@ -1,0 +1,41 @@
+{
+ "blind_only": true,
+ "failed": [
+  {
+   "at": "2026-11-26T20:23:48Z",
+   "id": "dilr_1881_q2",
+   "key": "c29f02f74b856f595b09b28ad05e3fd31d41c0b31faa96d81b28f9248e4509f0",
+   "why": "Two independent blind solvers did not reach the stored answer."
+  }
+ ],
+ "last_batch": {
+  "failed_in_run": 1,
+  "passed": 13,
+  "unchecked_in_run": 2
+ },
+ "lists_cut_at": 3000,
+ "switch_on": true,
+ "totals": {
+  "failed": 1,
+  "in_bank": 137625,
+  "left": 137609,
+  "passed": 13,
+  "reviewed": 16,
+  "unchecked": 2
+ },
+ "unchecked": [
+  {
+   "at": "2026-11-26T20:23:48Z",
+   "id": "dilr_1924_q1",
+   "key": "231d5253bd755b2afa18cfa8939ab80101c0839c93edc8899db9b48531c9dc11",
+   "why": "Figure-only stimulus needs a reviewed vision adapter"
+  },
+  {
+   "at": "2026-11-26T20:23:48Z",
+   "id": "dilr_1887_q1",
+   "key": "9f492645da86734e2db0df86e0ec56fe6e8cb53f89a03e84e021ba2a7871696d",
+   "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
+  }
+ ],
+ "updated_at": "2026-11-26T20:23:49Z"
+}
