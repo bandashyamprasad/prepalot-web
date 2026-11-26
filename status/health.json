@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-11-26T05:25:09Z",
+ "checked_at": "2026-11-26T09:45:22Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 184,
- "sitemap_addresses": 7996,
+ "slowest_ms": 127,
+ "sitemap_addresses": 7997,
  "certificate_days_left": 36,
  "next_exams": [
   {
@@ -40,76 +40,76 @@
  "database": {
   "ok": true,
   "status": 200,
-  "ms": 1354
+  "ms": 780
  },
  "checks": [
   {
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 129,
+   "ms": 127,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 143,
+   "ms": 98,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 101,
+   "ms": 43,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 67,
+   "ms": 45,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 68,
+   "ms": 50,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 184,
+   "ms": 114,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 86,
+   "ms": 44,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 124,
+   "ms": 45,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 73,
+   "ms": 59,
    "ok": true
   }
  ],
  "surprise": {
   "kind": "Joke",
-  "text": "Can I watch the TV? Dad: Yes, but don\u2019t turn it on.",
+  "text": "A man got hit in the head with a can of Coke, but he was alright because it was a soft drink.",
   "source": "icanhazdadjoke.com",
   "date": "2026-11-26"
  },
