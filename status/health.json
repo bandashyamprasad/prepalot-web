@@ -1,8 +1,8 @@
 {
- "checked_at": "2026-11-26T04:25:38Z",
+ "checked_at": "2026-11-26T05:23:12Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 125,
+ "slowest_ms": 236,
  "sitemap_addresses": 7996,
  "certificate_days_left": 36,
  "next_exams": [
@@ -40,76 +40,76 @@
  "database": {
   "ok": true,
   "status": 200,
-  "ms": 1267
+  "ms": 1098
  },
  "checks": [
   {
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 114,
+   "ms": 66,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 113,
+   "ms": 236,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 75,
+   "ms": 46,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 46,
+   "ms": 56,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 68,
+   "ms": 41,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 125,
+   "ms": 96,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 46,
+   "ms": 39,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 85,
+   "ms": 73,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 70,
+   "ms": 49,
    "ok": true
   }
  ],
  "surprise": {
   "kind": "Joke",
-  "text": "Toasters were the first form of pop-up notifications.",
+  "text": "What do you call a fish with no eyes? A fsh.",
   "source": "icanhazdadjoke.com",
   "date": "2026-11-26"
  },
