@@ -2,6 +2,12 @@
  "blind_only": true,
  "failed": [
   {
+   "at": "2026-11-27T14:50:31Z",
+   "id": "state_ap_aph_01_0172",
+   "key": "872a820a57573768225811d90495974c7b3a25a170c2e5ae9df5005942901cf9",
+   "why": "Two independent blind solvers did not reach the stored answer."
+  },
+  {
    "at": "2026-11-27T13:56:04Z",
    "id": "dilr_858_q2",
    "key": "93ed0832d0e8f0e55280a413e13b2b8c118805203a9867f8a80a7d20324ecf56",
@@ -21,22 +27,28 @@
   }
  ],
  "last_batch": {
-  "failed_in_run": 0,
-  "passed": 60,
-  "unchecked_in_run": 0
+  "failed_in_run": 1,
+  "passed": 13,
+  "unchecked_in_run": 1
  },
  "lists_cut_at": 3000,
  "switch_on": true,
  "totals": {
-  "failed": 3,
+  "failed": 4,
   "in_bank": 267566,
-  "left": 266621,
-  "passed": 904,
-  "reviewed": 945,
-  "unchecked": 38,
+  "left": 266635,
+  "passed": 917,
+  "reviewed": 931,
+  "unchecked": 10,
   "waiting_for_picture_model": 4366
  },
  "unchecked": [
+  {
+   "at": "2026-11-27T14:50:31Z",
+   "id": "state_bihar_bie_03_0010",
+   "key": "62094f779107684373dda648ddc1e62a25b96afcc1d071cae8d68efd4f484189",
+   "why": "The blind solvers were unsure or disagreed with each other."
+  },
   {
    "at": "2026-11-27T13:14:52Z",
    "id": "gs_society_gss_03_0065",
@@ -60,180 +72,6 @@
    "id": "state_bihar_bih_04_0006",
    "key": "c8a7e7d0ac47830637bc78aeac8be3fc695ae839f54c4ef827c2ce14c6f59f53",
    "why": "The blind solvers were unsure or disagreed with each other."
-  },
-  {
-   "at": "2026-11-27T10:35:22Z",
-   "id": "med_med_microbiology_01_i004",
-   "key": "13608ce12c8b2b09214d5babe77852831397ac269c8e440143f3172d4d055395",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:22Z",
-   "id": "QX2-scatter_plots-easy-8c3f8997e545",
-   "key": "9885e3c13ea5057d462f4b1bd54b0235994b6856c35a503e907c6a693ace29b3",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:21Z",
-   "id": "med_med_ent_01_j004",
-   "key": "d86c9a778137ddd0edc69949f7f1b1d67892033b0e9d96e7f34a1a65e5e255ac",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:20Z",
-   "id": "ssr_figure_count_0034",
-   "key": "0989bbf757bcfcf71b3be3092755f7ec20f801e77d6645568cf2e7e7c7c824c0",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:20Z",
-   "id": "lrv_cube_cutting_0174",
-   "key": "b25a162cb06cd5de25c4b98d1daf1ba2895a9702c4c1449e951d60a56057129f",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:20Z",
-   "id": "med_med_pathology_03_i007",
-   "key": "bfc7b307f4e97308dffc4fdfdbc94b33dcd97511678da7696f081483b527864d",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:19Z",
-   "id": "med_med_pathology_06_i016",
-   "key": "0d0a481aa3c2262101221d21b77e3a3e5649949d331c6c154ea8d8b431ea5a69",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:19Z",
-   "id": "med_med_anatomy_07_i004",
-   "key": "77087798d678652961425772f19ff9157a3833f05dfa1ba51fc5310d7649e90c",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:19Z",
-   "id": "med_med_ophthalmology_03_j006",
-   "key": "cd881c6540f0aa683746232896fae71befed937673254438af47769112d2273c",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:18Z",
-   "id": "ssr_visual_pattern_0053",
-   "key": "1a1769d5fed0fee54019c8a23fbcdf5ab6ec2670ce1e9ec92b9d306fcbb8ca03",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:18Z",
-   "id": "lrv_cube_cutting_0168",
-   "key": "4561a06d9f9d24901f414d1f3945684058942a7e3bcbc3dcf5d9af5fffbd1b9a",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:17Z",
-   "id": "lrv_cube_cutting_0161",
-   "key": "221c670db8213d4da9da9bbef6225bc152fcfa35fd9b2e425121ad41328092f1",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:17Z",
-   "id": "ssr_figure_count_0107",
-   "key": "92c52fce2a3ac72c26f60e4469066d5453e6913f70cce1eaf0d518bd7b815357",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:17Z",
-   "id": "med_med_ophthalmology_03_j002",
-   "key": "baa140eb5aa480037d92ea344bdada9314f37ade601fc62980fbd2f2742e3010",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:35:16Z",
-   "id": "ssr_visual_pattern_0010",
-   "key": "5c1b1c1f604a15e67bf31a5f762e4d3c1e5c847bd0bf8423f057a72d8e0a9825",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:06:19Z",
-   "id": "med_med_ent_01_j008",
-   "key": "5affe64d6bd7d69eede693cce8b1c21857fa70ec609a2d8f43ed20d234a171b6",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:06:19Z",
-   "id": "gate_ga_gga_spatial_1_g040",
-   "key": "e7ee9acbf8abf52b92f80871f0f3c327fc7b744cd6e19999f3b3591527e32a67",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:06:18Z",
-   "id": "ssr_figure_count_0122",
-   "key": "cfc5012b10568ea385cf19cbc618b927b39d7b4dd5a21bc6dc0b511b9210fbb5",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:06:03Z",
-   "id": "med_med_surgery_01_j002",
-   "key": "558d6a7bc6a6262b91db8d5a84811827547e9b67167098bc255f32dc00d2f27a",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:06:03Z",
-   "id": "ssr_figure_count_0141",
-   "key": "6a7f90ed8786c6e8830c7662451d4a1caafa75e2dafb95bfe120ed0e811f09ec",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:05:57Z",
-   "id": "med_med_ent_02_j004",
-   "key": "79e36a369b956d003b654444e954e5bac5d914041a10070124c6a7a1c89352c6",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:05:56Z",
-   "id": "lrv_mirror_image_0103",
-   "key": "558eb24eb128723125d73a7a83f18f6a5e448afa16cad26baaed97cfa489e3f7",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:05:56Z",
-   "id": "med_med_radiology_02_k040",
-   "key": "aed0913a350743e760532fca25fcc0c794fba4f0996fb71792671bfb6ae31508",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:05:56Z",
-   "id": "med_med_microbiology_05_i006",
-   "key": "cbe31d6fd16100549bd9941488bcd30e6689e1e3cb48eb94d635ea61fcfa159a",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:05:55Z",
-   "id": "med_med_ophthalmology_01_j002",
-   "key": "097f3c5422a7810452dfdd5cd56b51f4da0f12801fa7f3afc6b25be0e44f3adf",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:05:55Z",
-   "id": "med_med_ent_02_j010",
-   "key": "0ebac0817fec6c0fce89b919ffcae07fd589e27e9b9c7822bf7225a266111011",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:05:54Z",
-   "id": "ssr_figure_count_0055",
-   "key": "bae58737958920d16d3d51bf874a8e96b5cc10a1bb4e8f9f047fe20cd1c02db4",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:05:52Z",
-   "id": "med_med_orthopaedics_01_k001",
-   "key": "5004069799f5436bfd1ac6b839c575ff68618fc1526a31ca24b282ba30e0063a",
-   "why": "No model that sees pictures could be asked."
-  },
-  {
-   "at": "2026-11-27T10:05:52Z",
-   "id": "med_med_radiology_02_k005",
-   "key": "c942fe1a55c3805d6d6a66053c5206bd78c75d9e0bdf6abac60b76d24f5721df",
-   "why": "No model that sees pictures could be asked."
   },
   {
    "at": "2026-11-27T09:50:35Z",
@@ -266,5 +104,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-27T14:16:17Z"
+ "updated_at": "2026-11-27T14:50:48Z"
 }
