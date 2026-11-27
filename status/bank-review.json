@@ -2,6 +2,12 @@
  "blind_only": true,
  "failed": [
   {
+   "at": "2026-11-27T13:35:32Z",
+   "id": "dilr_379_q2",
+   "key": "4b3a55c1d95de99d127b0cb9a9fb27c4bbc9b769abb73d59f4a447c2d309948a",
+   "why": "Two independent blind solvers did not reach the stored answer."
+  },
+  {
    "at": "2026-11-27T09:34:12Z",
    "id": "dilr_906_q3",
    "key": "b6be23c362c55bac93ba132bcdb4529477c2bf8fd042f6519a9f8b43be8dabb5",
@@ -9,18 +15,18 @@
   }
  ],
  "last_batch": {
-  "failed_in_run": 0,
-  "passed": 1,
-  "unchecked_in_run": 2
+  "failed_in_run": 1,
+  "passed": 59,
+  "unchecked_in_run": 0
  },
  "lists_cut_at": 3000,
  "switch_on": true,
  "totals": {
-  "failed": 1,
+  "failed": 2,
   "in_bank": 267566,
-  "left": 266801,
-  "passed": 726,
-  "reviewed": 765,
+  "left": 266741,
+  "passed": 785,
+  "reviewed": 825,
   "unchecked": 38,
   "waiting_for_picture_model": 4366
  },
@@ -254,5 +260,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-27T13:15:09Z"
+ "updated_at": "2026-11-27T13:35:50Z"
 }
