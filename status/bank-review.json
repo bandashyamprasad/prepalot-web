@@ -2,7 +2,7 @@
  "blind_only": true,
  "failed": [
   {
-   "at": "2026-11-27T18:05:31Z",
+   "at": "2026-11-27T18:35:53Z",
    "id": "state_ap_aph_01_0172",
    "key": "872a820a57573768225811d90495974c7b3a25a170c2e5ae9df5005942901cf9",
    "why": "Two independent blind solvers did not reach the stored answer."
@@ -28,7 +28,7 @@
  ],
  "last_batch": {
   "failed_in_run": 1,
-  "passed": 1,
+  "passed": 0,
   "unchecked_in_run": 4
  },
  "lists_cut_at": 3000,
@@ -44,25 +44,25 @@
  },
  "unchecked": [
   {
-   "at": "2026-11-27T18:05:31Z",
+   "at": "2026-11-27T18:35:53Z",
    "id": "dilr_1089_q4",
    "key": "35180bd3841d140f5f7e361222350a103dfd3a8109793a939959f0abd6f8c51b",
    "why": "No free model could answer this item (too long for one, rate-limited on the other). Check it yourself or re-run it later."
   },
   {
-   "at": "2026-11-27T18:05:31Z",
+   "at": "2026-11-27T18:35:53Z",
    "id": "state_bihar_bie_03_0010",
    "key": "62094f779107684373dda648ddc1e62a25b96afcc1d071cae8d68efd4f484189",
    "why": "The blind solvers were unsure or disagreed with each other."
   },
   {
-   "at": "2026-11-27T18:05:31Z",
+   "at": "2026-11-27T18:35:53Z",
    "id": "lnx2_match_0068_q1",
    "key": "92c150060342310ef8e91f85126d2c651bb3e9e7e0b24fad23ae6cae0d0d339c",
    "why": "No free model could answer this item (too long for one, rate-limited on the other). Check it yourself or re-run it later."
   },
   {
-   "at": "2026-11-27T18:05:31Z",
+   "at": "2026-11-27T18:35:53Z",
    "id": "dilr_1631_q3",
    "key": "db26ab33abe6d77f6f00e4ad618ab8c2e864afd1bb29be7b5a766e24ec93c185",
    "why": "No free model could answer this item (too long for one, rate-limited on the other). Check it yourself or re-run it later."
@@ -122,5 +122,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-27T18:05:51Z"
+ "updated_at": "2026-11-27T18:36:09Z"
 }
