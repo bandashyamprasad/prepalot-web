@@ -13,8 +13,8 @@
    "failures_in_a_row": 0,
    "last_failure": "2026-11-27T08:03:35Z",
    "last_result": "ok",
-   "last_run": "2026-11-27T15:49:38Z",
-   "last_success": "2026-11-27T15:49:38Z",
+   "last_run": "2026-11-27T16:46:31Z",
+   "last_success": "2026-11-27T16:46:31Z",
    "name": "AI verification"
   },
   "copy-r2-key.yml": {
@@ -54,8 +54,8 @@
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-27T16:15:09Z",
-   "last_success": "2026-11-27T16:15:09Z",
+   "last_run": "2026-11-27T16:18:18Z",
+   "last_success": "2026-11-27T16:18:18Z",
    "name": "Export and delete run logs"
   },
   "indexnow.yml": {
@@ -101,10 +101,10 @@
   "study-chapters.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-25T17:48:13Z",
-   "last_success": "2026-11-25T17:48:13Z",
+   "last_run": "2026-11-27T16:48:55Z",
+   "last_success": "2026-11-27T16:48:55Z",
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-27T16:18:13Z"
+ "written_at": "2026-11-27T16:49:15Z"
 }
