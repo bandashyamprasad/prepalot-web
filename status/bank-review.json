@@ -18,9 +18,9 @@
  "totals": {
   "failed": 1,
   "in_bank": 267566,
-  "left": 267101,
-  "passed": 429,
-  "reviewed": 465,
+  "left": 267041,
+  "passed": 489,
+  "reviewed": 525,
   "unchecked": 35,
   "waiting_for_picture_model": 4366
  },
@@ -236,5 +236,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-27T11:24:44Z"
+ "updated_at": "2026-11-27T11:42:52Z"
 }
