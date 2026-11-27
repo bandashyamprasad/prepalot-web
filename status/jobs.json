@@ -38,8 +38,8 @@
    "failures_in_a_row": 0,
    "last_failure": "2026-11-25T12:14:35Z",
    "last_result": "ok",
-   "last_run": "2026-11-26T22:15:24Z",
-   "last_success": "2026-11-26T22:15:24Z",
+   "last_run": "2026-11-27T00:13:43Z",
+   "last_success": "2026-11-27T00:13:43Z",
    "name": "Current affairs"
   },
   "exam-dates.yml": {
@@ -53,8 +53,8 @@
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-27T00:00:28Z",
-   "last_success": "2026-11-27T00:00:28Z",
+   "last_run": "2026-11-27T00:01:19Z",
+   "last_success": "2026-11-27T00:01:19Z",
    "name": "Export and delete run logs"
   },
   "indexnow.yml": {
@@ -105,5 +105,5 @@
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-27T00:01:15Z"
+ "written_at": "2026-11-27T00:13:58Z"
 }
