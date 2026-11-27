@@ -10,21 +10,33 @@
  ],
  "last_batch": {
   "failed_in_run": 0,
-  "passed": 60,
-  "unchecked_in_run": 0
+  "passed": 57,
+  "unchecked_in_run": 2
  },
  "lists_cut_at": 3000,
  "switch_on": true,
  "totals": {
   "failed": 1,
   "in_bank": 267566,
-  "left": 266861,
-  "passed": 668,
-  "reviewed": 705,
-  "unchecked": 36,
+  "left": 266802,
+  "passed": 725,
+  "reviewed": 764,
+  "unchecked": 38,
   "waiting_for_picture_model": 4366
  },
  "unchecked": [
+  {
+   "at": "2026-11-27T13:08:56Z",
+   "id": "gs_society_gss_03_0065",
+   "key": "36bf9d5fef255b936d96cd58173ed94e6b5e9e6f0983db46e5f18981ab0c6b57",
+   "why": "The blind solvers were unsure or disagreed with each other."
+  },
+  {
+   "at": "2026-11-27T13:08:56Z",
+   "id": "dilr_858_q1",
+   "key": "aef116f5597c8311d9bab021a5251cfd4b3181e6c748f061a36273c5e0f4bfc0",
+   "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
+  },
   {
    "at": "2026-11-27T12:07:31Z",
    "id": "bpx2_0398_q1",
@@ -242,5 +254,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-27T12:43:47Z"
+ "updated_at": "2026-11-27T13:09:14Z"
 }
