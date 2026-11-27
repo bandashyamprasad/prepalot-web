@@ -2,7 +2,7 @@
  "blind_only": true,
  "failed": [
   {
-   "at": "2026-11-27T14:50:31Z",
+   "at": "2026-11-27T15:17:26Z",
    "id": "state_ap_aph_01_0172",
    "key": "872a820a57573768225811d90495974c7b3a25a170c2e5ae9df5005942901cf9",
    "why": "Two independent blind solvers did not reach the stored answer."
@@ -28,7 +28,7 @@
  ],
  "last_batch": {
   "failed_in_run": 1,
-  "passed": 13,
+  "passed": 0,
   "unchecked_in_run": 1
  },
  "lists_cut_at": 3000,
@@ -44,7 +44,7 @@
  },
  "unchecked": [
   {
-   "at": "2026-11-27T14:50:31Z",
+   "at": "2026-11-27T15:17:26Z",
    "id": "state_bihar_bie_03_0010",
    "key": "62094f779107684373dda648ddc1e62a25b96afcc1d071cae8d68efd4f484189",
    "why": "The blind solvers were unsure or disagreed with each other."
@@ -104,5 +104,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-27T14:50:48Z"
+ "updated_at": "2026-11-27T15:17:39Z"
 }
