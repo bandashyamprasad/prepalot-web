@@ -53,8 +53,8 @@
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-27T00:37:34Z",
-   "last_success": "2026-11-27T00:37:34Z",
+   "last_run": "2026-11-27T02:02:48Z",
+   "last_success": "2026-11-27T02:02:48Z",
    "name": "Export and delete run logs"
   },
   "indexnow.yml": {
@@ -93,8 +93,8 @@
    "failures_in_a_row": 0,
    "last_failure": "2026-11-25T10:13:04Z",
    "last_result": "ok",
-   "last_run": "2026-11-26T11:25:23Z",
-   "last_success": "2026-11-26T11:25:23Z",
+   "last_run": "2026-11-27T02:02:58Z",
+   "last_success": "2026-11-27T02:02:58Z",
    "name": "Site health check"
   },
   "study-chapters.yml": {
@@ -105,5 +105,5 @@
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-27T02:02:43Z"
+ "written_at": "2026-11-27T02:03:11Z"
 }
