@@ -1,9 +1,9 @@
 {
- "checked_at": "2026-11-27T02:02:36Z",
+ "checked_at": "2026-11-27T09:51:00Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 288,
- "sitemap_addresses": 7945,
+ "slowest_ms": 190,
+ "sitemap_addresses": 7948,
  "certificate_days_left": 35,
  "next_exams": [
   {
@@ -40,70 +40,70 @@
  "database": {
   "ok": true,
   "status": 200,
-  "ms": 953
+  "ms": 919
  },
  "checks": [
   {
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 114,
+   "ms": 73,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 145,
+   "ms": 113,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 109,
+   "ms": 53,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 288,
+   "ms": 79,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 147,
+   "ms": 62,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 270,
+   "ms": 125,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 114,
+   "ms": 65,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 88,
+   "ms": 190,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 134,
+   "ms": 141,
    "ok": true
   }
  ],
