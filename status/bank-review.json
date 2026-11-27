@@ -1,26 +1,19 @@
 {
  "blind_only": true,
- "failed": [
-  {
-   "at": "2026-11-26T20:38:37Z",
-   "id": "dilr_1881_q2",
-   "key": "c29f02f74b856f595b09b28ad05e3fd31d41c0b31faa96d81b28f9248e4509f0",
-   "why": "Two independent blind solvers did not reach the stored answer."
-  }
- ],
+ "failed": [],
  "last_batch": {
-  "failed_in_run": 1,
+  "failed_in_run": 0,
   "passed": 0,
-  "unchecked_in_run": 2
+  "unchecked_in_run": 0
  },
  "lists_cut_at": 3000,
  "switch_on": true,
  "totals": {
-  "failed": 1,
+  "failed": 0,
   "in_bank": 137625,
-  "left": 137609,
+  "left": 137610,
   "passed": 13,
-  "reviewed": 16,
+  "reviewed": 15,
   "unchecked": 2
  },
  "unchecked": [
@@ -37,5 +30,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-26T20:38:38Z"
+ "updated_at": "2026-11-27T08:03:30Z"
 }
