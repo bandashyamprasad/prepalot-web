@@ -10,21 +10,27 @@
  ],
  "last_batch": {
   "failed_in_run": 0,
-  "passed": 15,
-  "unchecked_in_run": 0
+  "passed": 59,
+  "unchecked_in_run": 1
  },
  "lists_cut_at": 3000,
  "switch_on": true,
  "totals": {
   "failed": 1,
   "in_bank": 267566,
-  "left": 267221,
-  "passed": 310,
-  "reviewed": 345,
-  "unchecked": 34,
+  "left": 267161,
+  "passed": 369,
+  "reviewed": 405,
+  "unchecked": 35,
   "waiting_for_picture_model": 4366
  },
  "unchecked": [
+  {
+   "at": "2026-11-27T11:06:06Z",
+   "id": "state_bihar_bih_04_0006",
+   "key": "c8a7e7d0ac47830637bc78aeac8be3fc695ae839f54c4ef827c2ce14c6f59f53",
+   "why": "The blind solvers were unsure or disagreed with each other."
+  },
   {
    "at": "2026-11-27T10:35:22Z",
    "id": "med_med_microbiology_01_i004",
@@ -230,5 +236,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-27T10:46:21Z"
+ "updated_at": "2026-11-27T11:06:22Z"
 }
