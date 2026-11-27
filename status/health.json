@@ -1,117 +1,117 @@
 {
- "checked_at": "2026-11-26T11:25:04Z",
+ "checked_at": "2026-11-27T02:02:36Z",
  "pages_ok": 9,
  "pages_checked": 9,
- "slowest_ms": 175,
- "sitemap_addresses": 8020,
- "certificate_days_left": 36,
+ "slowest_ms": 288,
+ "sitemap_addresses": 7945,
+ "certificate_days_left": 35,
  "next_exams": [
-  {
-   "exam": "SBI Clerk Mains 2026",
-   "date": "2026-11-26",
-   "days": 0
-  },
   {
    "exam": "CAT 2026",
    "date": "2026-11-29",
-   "days": 3
+   "days": 2
   },
   {
    "exam": "APPSC Group-II 2026",
    "date": "2026-11-30",
-   "days": 4
+   "days": 3
   },
   {
    "exam": "SSC CHSL Tier-I 2026",
    "date": "2026-12-03",
-   "days": 7
+   "days": 6
   },
   {
    "exam": "CSIR NET December 2026",
    "date": "2026-12-19",
-   "days": 23
+   "days": 22
   },
   {
    "exam": "MAT December 2026",
    "date": "2026-12-20",
-   "days": 24
+   "days": 23
+  },
+  {
+   "exam": "IBPS Clerk Mains",
+   "date": "2026-12-27",
+   "days": 30
   }
  ],
  "database": {
   "ok": true,
   "status": 200,
-  "ms": 967
+  "ms": 953
  },
  "checks": [
   {
    "page": "Home",
    "path": "/",
    "status": 200,
-   "ms": 145,
+   "ms": 114,
    "ok": true
   },
   {
    "page": "Exams",
    "path": "/exams/",
    "status": 200,
-   "ms": 104,
+   "ms": 145,
    "ok": true
   },
   {
    "page": "CAT",
    "path": "/cat/",
    "status": 200,
-   "ms": 58,
+   "ms": 109,
    "ok": true
   },
   {
    "page": "CAT mock",
    "path": "/mock/cat/",
    "status": 200,
-   "ms": 59,
+   "ms": 288,
    "ok": true
   },
   {
    "page": "CLAT guide",
    "path": "/exam-information/clat/",
    "status": 200,
-   "ms": 175,
+   "ms": 147,
    "ok": true
   },
   {
    "page": "Study notes",
    "path": "/learn/",
    "status": 200,
-   "ms": 159,
+   "ms": 270,
    "ok": true
   },
   {
    "page": "Code practice",
    "path": "/code/",
    "status": 200,
-   "ms": 69,
+   "ms": 114,
    "ok": true
   },
   {
    "page": "Jobs",
    "path": "/jobs/",
    "status": 200,
-   "ms": 60,
+   "ms": 88,
    "ok": true
   },
   {
    "page": "Sitemap",
    "path": "/sitemap.xml",
    "status": 200,
-   "ms": 135,
+   "ms": 134,
    "ok": true
   }
  ],
  "surprise": {
-  "kind": "Joke",
-  "text": "I bought shoes from a drug dealer once. I don't know what he laced them with, but I was tripping all day.",
-  "source": "icanhazdadjoke.com",
-  "date": "2026-11-26"
+  "kind": "On this day",
+  "text": "1989: A bomb placed by the Medell\u00edn Cartel in an attempt to kill Colombian presidential candidate C\u00e9sar Gaviria destroyed Avianca Flight 203, killing all 107 people on board, excluding Gaviria, who was not on the flight.",
+  "source": "Wikipedia",
+  "date": "2026-11-27"
  },
- "surprises_kept": 4
+ "surprises_kept": 5
 }
