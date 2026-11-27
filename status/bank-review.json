@@ -9,22 +9,34 @@
   }
  ],
  "last_batch": {
-  "failed_in_run": 1,
-  "passed": 59,
-  "unchecked_in_run": 0
+  "failed_in_run": 0,
+  "passed": 58,
+  "unchecked_in_run": 2
  },
  "lists_cut_at": 3000,
  "switch_on": true,
  "totals": {
   "failed": 1,
   "in_bank": 267566,
-  "left": 267431,
-  "passed": 131,
-  "reviewed": 135,
-  "unchecked": 3,
+  "left": 267371,
+  "passed": 189,
+  "reviewed": 195,
+  "unchecked": 5,
   "waiting_for_picture_model": 4366
  },
  "unchecked": [
+  {
+   "at": "2026-11-27T09:50:35Z",
+   "id": "state_ap_aph_03_0140",
+   "key": "840a14e0907fb68251cccd60500780ce04f3311efd2e236ca7bca341734e1e42",
+   "why": "The blind solvers were unsure or disagreed with each other."
+  },
+  {
+   "at": "2026-11-27T09:50:35Z",
+   "id": "state_bihar_bie_03_0014",
+   "key": "8b756622c715aa93772737abfb73ef51cf0761a47f9d0a95f41abb123b4dbe86",
+   "why": "The blind solvers were unsure or disagreed with each other."
+  },
   {
    "at": "2026-11-27T08:34:15Z",
    "id": "dilr_499_q4",
@@ -44,5 +56,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-27T09:34:31Z"
+ "updated_at": "2026-11-27T09:50:56Z"
 }
