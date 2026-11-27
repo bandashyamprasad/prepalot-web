@@ -10,11 +10,11 @@
   },
   "ai-verification.yml": {
    "expect_hours": 14,
-   "failures_in_a_row": 1,
+   "failures_in_a_row": 0,
    "last_failure": "2026-11-27T08:03:35Z",
-   "last_result": "failed",
-   "last_run": "2026-11-27T08:03:35Z",
-   "last_success": "2026-11-27T07:16:02Z",
+   "last_result": "ok",
+   "last_run": "2026-11-27T08:10:58Z",
+   "last_success": "2026-11-27T08:10:58Z",
    "name": "AI verification"
   },
   "copy-r2-key.yml": {
@@ -54,8 +54,8 @@
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-27T06:47:12Z",
-   "last_success": "2026-11-27T06:47:12Z",
+   "last_run": "2026-11-27T08:08:29Z",
+   "last_success": "2026-11-27T08:08:29Z",
    "name": "Export and delete run logs"
   },
   "indexnow.yml": {
@@ -106,5 +106,5 @@
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-27T08:04:05Z"
+ "written_at": "2026-11-27T08:11:14Z"
 }
