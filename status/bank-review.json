@@ -2,7 +2,7 @@
  "blind_only": true,
  "failed": [
   {
-   "at": "2026-11-27T22:18:06Z",
+   "at": "2026-11-27T22:45:18Z",
    "id": "state_ap_aph_01_0172",
    "key": "872a820a57573768225811d90495974c7b3a25a170c2e5ae9df5005942901cf9",
    "why": "Two independent blind solvers did not reach the stored answer."
@@ -29,67 +29,79 @@
  "last_batch": {
   "failed_in_run": 1,
   "passed": 2,
-  "unchecked_in_run": 8
+  "unchecked_in_run": 10
  },
  "lists_cut_at": 3000,
  "switch_on": true,
  "totals": {
   "failed": 4,
   "in_bank": 267566,
-  "left": 266608,
-  "passed": 937,
-  "reviewed": 958,
-  "unchecked": 17,
+  "left": 266604,
+  "passed": 939,
+  "reviewed": 962,
+  "unchecked": 19,
   "waiting_for_picture_model": 4366
  },
  "unchecked": [
   {
-   "at": "2026-11-27T22:18:06Z",
+   "at": "2026-11-27T22:45:18Z",
    "id": "dilr_1089_q4",
    "key": "35180bd3841d140f5f7e361222350a103dfd3a8109793a939959f0abd6f8c51b",
    "why": "No free model could answer this item (too long for one, rate-limited on the other). Check it yourself or re-run it later."
   },
   {
-   "at": "2026-11-27T22:18:06Z",
+   "at": "2026-11-27T22:45:18Z",
    "id": "state_bihar_bie_03_0010",
    "key": "62094f779107684373dda648ddc1e62a25b96afcc1d071cae8d68efd4f484189",
    "why": "The blind solvers were unsure or disagreed with each other."
   },
   {
-   "at": "2026-11-27T22:18:06Z",
+   "at": "2026-11-27T22:45:18Z",
    "id": "dilr_245_q4",
    "key": "8a03d6c5170e33ffaed93a7cde4adf2b286cf998048f020351d44281e622ade9",
    "why": "No free model could answer this item (too long for one, rate-limited on the other). Check it yourself or re-run it later."
   },
   {
-   "at": "2026-11-27T22:18:06Z",
+   "at": "2026-11-27T22:45:18Z",
    "id": "lnx2_match_0068_q1",
    "key": "92c150060342310ef8e91f85126d2c651bb3e9e7e0b24fad23ae6cae0d0d339c",
    "why": "No free model could answer this item (too long for one, rate-limited on the other). Check it yourself or re-run it later."
   },
   {
-   "at": "2026-11-27T22:18:06Z",
+   "at": "2026-11-27T22:45:18Z",
    "id": "dilr_1239_q5",
    "key": "b1da9971e606f056a65204c6c79ac6306915949f1005bfca41da2d57820ef8d1",
    "why": "No usable AI answer for this item (No usable answer: openrouter: Provider HTTP 429; request held for reconciliation; openrouter: Provider HTTP 404; request held for reconciliation; openrouter: Provider HTTP 404; request held for reconc). Ch"
   },
   {
-   "at": "2026-11-27T22:18:06Z",
+   "at": "2026-11-27T22:45:18Z",
    "id": "bpx2_0361_q3",
    "key": "be2cfdaec1abf8a52ed1c3dd9baf13a745160f46833fdf5f47a5b05afbad4240",
    "why": "No usable AI answer for this item (No usable answer: openrouter: Provider HTTP 429; request held for reconciliation; openrouter: Provider HTTP 404; request held for reconciliation; openrouter: Provider HTTP 404; request held for reconc). Ch"
   },
   {
-   "at": "2026-11-27T22:18:06Z",
+   "at": "2026-11-27T22:45:18Z",
    "id": "dilr_1631_q3",
    "key": "db26ab33abe6d77f6f00e4ad618ab8c2e864afd1bb29be7b5a766e24ec93c185",
    "why": "No free model could answer this item (too long for one, rate-limited on the other). Check it yourself or re-run it later."
   },
   {
-   "at": "2026-11-27T22:18:06Z",
+   "at": "2026-11-27T22:45:18Z",
    "id": "bpx2_0393_q1",
    "key": "fc58ebf53fd306e9a2e91aa3d9f559e4d2bf6f341dd7bcd255cade38a6096cbb",
    "why": "No free model could answer this item (too long for one, rate-limited on the other). Check it yourself or re-run it later."
+  },
+  {
+   "at": "2026-11-27T22:45:18Z",
+   "id": "dilr_817_q4",
+   "key": "d1cbfb822cd39e38889d1bc7d0d9fce4512ec3e254c5f5bf28c43087b6de9061",
+   "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
+  },
+  {
+   "at": "2026-11-27T22:45:18Z",
+   "id": "dilr_239_q3",
+   "key": "847147753921738319e4e36bf25b0a2b8ee90c1f90c09094af995f669e56a3f1",
+   "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   },
   {
    "at": "2026-11-27T13:14:52Z",
@@ -146,5 +158,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-27T22:18:22Z"
+ "updated_at": "2026-11-27T22:45:38Z"
 }
