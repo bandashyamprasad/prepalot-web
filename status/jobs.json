@@ -13,8 +13,8 @@
    "failures_in_a_row": 0,
    "last_failure": "2026-11-27T08:03:35Z",
    "last_result": "ok",
-   "last_run": "2026-11-27T21:49:36Z",
-   "last_success": "2026-11-27T21:49:36Z",
+   "last_run": "2026-11-27T22:45:44Z",
+   "last_success": "2026-11-27T22:45:44Z",
    "name": "AI verification"
   },
   "copy-r2-key.yml": {
@@ -29,8 +29,8 @@
    "failures_in_a_row": 0,
    "last_failure": "2026-11-25T03:48:54Z",
    "last_result": "ok",
-   "last_run": "2026-11-27T22:16:04Z",
-   "last_success": "2026-11-27T22:16:04Z",
+   "last_run": "2026-11-27T23:00:42Z",
+   "last_success": "2026-11-27T23:00:42Z",
    "name": "Current affairs (PIB, Oracle machine)"
   },
   "current-affairs.yml": {
@@ -54,8 +54,8 @@
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-27T22:14:44Z",
-   "last_success": "2026-11-27T22:14:44Z",
+   "last_run": "2026-11-27T22:18:38Z",
+   "last_success": "2026-11-27T22:18:38Z",
    "name": "Export and delete run logs"
   },
   "indexnow.yml": {
@@ -80,6 +80,13 @@
    "last_run": "2026-11-27T15:38:22Z",
    "last_success": "2026-11-27T15:38:22Z",
    "name": "PIB trigger (starts the PIB job on the Oracle runner)"
+  },
+  "qbank-write.yml": {
+   "failures_in_a_row": 0,
+   "last_result": "ok",
+   "last_run": "2026-11-27T23:13:20Z",
+   "last_success": "2026-11-27T23:13:20Z",
+   "name": "Question bank writing (paid, capped)"
   },
   "r2-sync.yml": {
    "expect_hours": 26,
@@ -106,5 +113,5 @@
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-27T22:18:33Z"
+ "written_at": "2026-11-27T23:13:41Z"
 }
