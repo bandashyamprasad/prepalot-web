@@ -10,21 +10,27 @@
  ],
  "last_batch": {
   "failed_in_run": 0,
-  "passed": 60,
-  "unchecked_in_run": 0
+  "passed": 59,
+  "unchecked_in_run": 1
  },
  "lists_cut_at": 3000,
  "switch_on": true,
  "totals": {
   "failed": 1,
   "in_bank": 267566,
-  "left": 267041,
-  "passed": 489,
-  "reviewed": 525,
-  "unchecked": 35,
+  "left": 266981,
+  "passed": 548,
+  "reviewed": 585,
+  "unchecked": 36,
   "waiting_for_picture_model": 4366
  },
  "unchecked": [
+  {
+   "at": "2026-11-27T12:07:31Z",
+   "id": "bpx2_0398_q1",
+   "key": "75e947ac9a4786caa2e5a3f8aaa9da4c6263a86706464e6616cbc9cad147127e",
+   "why": "No usable AI answer for this item (No usable answer: openrouter: openrouter answer unusable (finish_reason length); openrouter: Provider HTTP 404; request held for reconciliation; openrouter: Provider HTTP 404; request held for reconci). Ch"
+  },
   {
    "at": "2026-11-27T11:06:06Z",
    "id": "state_bihar_bih_04_0006",
@@ -236,5 +242,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-27T11:42:52Z"
+ "updated_at": "2026-11-27T12:07:46Z"
 }
