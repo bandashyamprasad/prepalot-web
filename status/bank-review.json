@@ -21,8 +21,8 @@
   }
  ],
  "last_batch": {
-  "failed_in_run": 1,
-  "passed": 59,
+  "failed_in_run": 0,
+  "passed": 60,
   "unchecked_in_run": 0
  },
  "lists_cut_at": 3000,
@@ -30,9 +30,9 @@
  "totals": {
   "failed": 3,
   "in_bank": 267566,
-  "left": 266681,
-  "passed": 844,
-  "reviewed": 885,
+  "left": 266621,
+  "passed": 904,
+  "reviewed": 945,
   "unchecked": 38,
   "waiting_for_picture_model": 4366
  },
@@ -266,5 +266,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-27T13:56:20Z"
+ "updated_at": "2026-11-27T14:16:17Z"
 }
