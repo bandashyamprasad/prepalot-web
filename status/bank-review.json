@@ -10,11 +10,12 @@
  "switch_on": true,
  "totals": {
   "failed": 0,
-  "in_bank": 137625,
-  "left": 137610,
+  "in_bank": 232521,
+  "left": 232506,
   "passed": 13,
   "reviewed": 15,
-  "unchecked": 2
+  "unchecked": 2,
+  "waiting_for_picture_model": 39411
  },
  "unchecked": [
   {
@@ -30,5 +31,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-27T08:03:30Z"
+ "updated_at": "2026-11-27T08:10:53Z"
 }
