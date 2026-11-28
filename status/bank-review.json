@@ -28,21 +28,39 @@
  ],
  "last_batch": {
   "failed_in_run": 0,
-  "passed": 60,
-  "unchecked_in_run": 0
+  "passed": 57,
+  "unchecked_in_run": 3
  },
  "lists_cut_at": 3000,
  "switch_on": true,
  "totals": {
   "failed": 4,
   "in_bank": 267566,
-  "left": 266350,
-  "passed": 1188,
-  "reviewed": 1216,
-  "unchecked": 24,
+  "left": 266290,
+  "passed": 1245,
+  "reviewed": 1276,
+  "unchecked": 27,
   "waiting_for_picture_model": 4366
  },
  "unchecked": [
+  {
+   "at": "2026-11-28T01:44:13Z",
+   "id": "gs_economy_gse_06_0298",
+   "key": "e158f8c628ee1176372bd92df8dc16b18a2d626cac324da82097df0dd3d3fec0",
+   "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
+  },
+  {
+   "at": "2026-11-28T01:44:13Z",
+   "id": "state_ap_aph_01_0285",
+   "key": "9b81068a569cafa5bcb9309a76be02cccab53f4dcd35e725f717e14bc8ef6172",
+   "why": "The blind solvers were unsure or disagreed with each other."
+  },
+  {
+   "at": "2026-11-28T01:44:13Z",
+   "id": "dilr_1158_q1",
+   "key": "950561c38497ecd35775a506467c2213f7276b77c17bcbb263a3c0c1b2b2ea2c",
+   "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
+  },
   {
    "at": "2026-11-28T00:46:04Z",
    "id": "bpx2_0510_q3",
@@ -188,5 +206,5 @@
    "why": "The first blind solver did not reach the stored answer and no second free model could be asked."
   }
  ],
- "updated_at": "2026-11-28T01:23:24Z"
+ "updated_at": "2026-11-28T01:44:30Z"
 }
