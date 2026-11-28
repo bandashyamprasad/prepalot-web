@@ -1,18 +1,18 @@
 # prepalot.in health
 
-Checked daily from GitHub's servers. Last check: 2026-11-28T09:03:47Z.
+Checked daily from GitHub's servers. Last check: 2026-11-28T10:48:20Z.
 
 | Page | Status | Response |
 |---|---|---|
-| Home | OK | 81 ms |
-| Exams | OK | 104 ms |
-| CAT | OK | 103 ms |
-| CAT mock | OK | 92 ms |
-| CLAT guide | OK | 111 ms |
-| Study notes | OK | 74 ms |
-| Code practice | OK | 80 ms |
-| Jobs | OK | 68 ms |
-| Sitemap | OK | 56 ms |
+| Home | OK | 160 ms |
+| Exams | OK | 136 ms |
+| CAT | OK | 113 ms |
+| CAT mock | OK | 89 ms |
+| CLAT guide | OK | 104 ms |
+| Study notes | OK | 218 ms |
+| Code practice | OK | 51 ms |
+| Jobs | OK | 66 ms |
+| Sitemap | OK | 80 ms |
 
 - Database (sign-in, mock submits, admin): answering
 - Addresses in the sitemaps: 8159
