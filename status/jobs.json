@@ -13,8 +13,8 @@
    "failures_in_a_row": 0,
    "last_failure": "2026-11-27T08:03:35Z",
    "last_result": "ok",
-   "last_run": "2026-11-28T06:46:40Z",
-   "last_success": "2026-11-28T06:46:40Z",
+   "last_run": "2026-11-28T07:26:40Z",
+   "last_success": "2026-11-28T07:26:40Z",
    "name": "AI verification"
   },
   "copy-r2-key.yml": {
@@ -38,8 +38,8 @@
    "failures_in_a_row": 0,
    "last_failure": "2026-11-25T12:14:35Z",
    "last_result": "ok",
-   "last_run": "2026-11-28T06:13:32Z",
-   "last_success": "2026-11-28T06:13:32Z",
+   "last_run": "2026-11-28T07:17:39Z",
+   "last_success": "2026-11-28T07:17:39Z",
    "name": "Current affairs"
   },
   "exam-dates.yml": {
@@ -54,8 +54,8 @@
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-28T06:17:30Z",
-   "last_success": "2026-11-28T06:17:30Z",
+   "last_run": "2026-11-28T06:47:00Z",
+   "last_success": "2026-11-28T06:47:00Z",
    "name": "Export and delete run logs"
   },
   "indexnow.yml": {
@@ -84,8 +84,8 @@
   "qbank-write.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-27T23:23:33Z",
-   "last_success": "2026-11-27T23:23:33Z",
+   "last_run": "2026-11-28T08:15:21Z",
+   "last_success": "2026-11-28T08:15:21Z",
    "name": "Question bank writing (paid, capped)"
   },
   "r2-sync.yml": {
@@ -113,5 +113,5 @@
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-28T06:46:54Z"
+ "written_at": "2026-11-28T08:15:48Z"
 }
