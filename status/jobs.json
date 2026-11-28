@@ -38,8 +38,8 @@
    "failures_in_a_row": 0,
    "last_failure": "2026-11-25T12:14:35Z",
    "last_result": "ok",
-   "last_run": "2026-11-28T02:14:08Z",
-   "last_success": "2026-11-28T02:14:08Z",
+   "last_run": "2026-11-28T04:13:49Z",
+   "last_success": "2026-11-28T04:13:49Z",
    "name": "Current affairs"
   },
   "exam-dates.yml": {
@@ -54,16 +54,16 @@
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-28T02:14:31Z",
-   "last_success": "2026-11-28T02:14:31Z",
+   "last_run": "2026-11-28T02:28:06Z",
+   "last_success": "2026-11-28T02:28:06Z",
    "name": "Export and delete run logs"
   },
   "indexnow.yml": {
    "expect_hours": 26,
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-27T03:50:18Z",
-   "last_success": "2026-11-27T03:50:18Z",
+   "last_run": "2026-11-28T03:50:32Z",
+   "last_success": "2026-11-28T03:50:32Z",
    "name": "Tell Bing and DuckDuckGo about changed pages (IndexNow)"
   },
   "offline-bank.yml": {
@@ -113,5 +113,5 @@
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-28T02:17:56Z"
+ "written_at": "2026-11-28T04:14:14Z"
 }
