@@ -1,21 +1,21 @@
 # prepalot.in health
 
-Checked daily from GitHub's servers. Last check: 2026-11-28T02:00:18Z.
+Checked daily from GitHub's servers. Last check: 2026-11-28T09:03:47Z.
 
 | Page | Status | Response |
 |---|---|---|
-| Home | OK | 160 ms |
-| Exams | OK | 142 ms |
-| CAT | OK | 153 ms |
-| CAT mock | OK | 232 ms |
-| CLAT guide | OK | 214 ms |
-| Study notes | OK | 147 ms |
-| Code practice | OK | 195 ms |
-| Jobs | OK | 212 ms |
-| Sitemap | OK | 206 ms |
+| Home | OK | 81 ms |
+| Exams | OK | 104 ms |
+| CAT | OK | 103 ms |
+| CAT mock | OK | 92 ms |
+| CLAT guide | OK | 111 ms |
+| Study notes | OK | 74 ms |
+| Code practice | OK | 80 ms |
+| Jobs | OK | 68 ms |
+| Sitemap | OK | 56 ms |
 
 - Database (sign-in, mock submits, admin): answering
-- Addresses in the sitemaps: 8142
+- Addresses in the sitemaps: 8159
 - TLS certificate days left: 34
 
 ## Next official exam dates
