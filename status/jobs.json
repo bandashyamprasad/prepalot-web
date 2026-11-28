@@ -29,8 +29,8 @@
    "failures_in_a_row": 0,
    "last_failure": "2026-11-25T03:48:54Z",
    "last_result": "ok",
-   "last_run": "2026-11-28T00:36:38Z",
-   "last_success": "2026-11-28T00:36:38Z",
+   "last_run": "2026-11-28T02:15:57Z",
+   "last_success": "2026-11-28T02:15:57Z",
    "name": "Current affairs (PIB, Oracle machine)"
   },
   "current-affairs.yml": {
@@ -54,8 +54,8 @@
   "export-logs.yml": {
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-28T02:00:56Z",
-   "last_success": "2026-11-28T02:00:56Z",
+   "last_run": "2026-11-28T02:14:31Z",
+   "last_success": "2026-11-28T02:14:31Z",
    "name": "Export and delete run logs"
   },
   "indexnow.yml": {
@@ -92,8 +92,8 @@
    "expect_hours": 26,
    "failures_in_a_row": 0,
    "last_result": "ok",
-   "last_run": "2026-11-28T01:35:45Z",
-   "last_success": "2026-11-28T01:35:45Z",
+   "last_run": "2026-11-28T02:17:42Z",
+   "last_success": "2026-11-28T02:17:42Z",
    "name": "Copy media to R2"
   },
   "site-health.yml": {
@@ -113,5 +113,5 @@
    "name": "Study chapters (free tiers)"
   }
  },
- "written_at": "2026-11-28T02:14:27Z"
+ "written_at": "2026-11-28T02:17:56Z"
 }
